@@ -1,7 +1,10 @@
-export default function Header(props){
+import image from "../assets/globe.png"
+
+export default function Header(){
     return(
-        <header>
-            <img src={props.img} alt={props.alt} />
+        <header className="header">
+            <img className="logo-img" src={image} alt="logo image" />
+            <span>my travel journal</span>
         </header>
     )
 }

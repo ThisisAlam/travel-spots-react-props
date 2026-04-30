@@ -1,20 +1,12 @@
-import { Header } from "./components/Header.jsx"
-import "header.css"
-import { MainContent } from "./components/MainContent.jsx"
-import "header.css"
+import Header from "./components/Header.jsx"
+import MainContent from "./components/MainContent.jsx"
+import "./UI-CSS/header.css"
+import "./UI-CSS/maincontent.css"
 
-export default function App(){
-  return(
+export default function App() {
+  return (
     <>
-      <Header 
-        img={
-          {
-            src:"./assets/png",
-            alt:"logo image"
-          }
-        }
-        title="my travel journal"
-      />
+      <Header />
       <MainContent />
     </>
   )

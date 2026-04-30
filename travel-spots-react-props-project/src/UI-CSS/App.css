@@ -1,0 +1,6 @@
+.app{
+    border-radius: 0.75rem;
+    border: 3px solid white;
+    overflow: hidden;
+    background-color: white;
+}
