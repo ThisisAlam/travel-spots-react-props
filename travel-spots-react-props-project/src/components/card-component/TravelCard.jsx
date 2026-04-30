@@ -18,7 +18,6 @@ export default function TravelCard(props){
                     <p>{props.entry.text}</p>
                 </div>
             </div>
-            <hr />
         </>
     )
 }
